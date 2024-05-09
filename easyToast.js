@@ -28,7 +28,6 @@ function CttCJimEasyToast_createElementFromHTML(htmlString) {
 }
 
 function CttCJimEasyToast_newModal(type="info",body="",title="") { 
-	swal.close(); //to close loading modal
     var fill = "#007aff";
 
     if(body=="") {
