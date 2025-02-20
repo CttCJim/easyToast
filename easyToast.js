@@ -1,5 +1,19 @@
 $(document).ready(function() {
-    var html = `<div class="toast-container position-fixed bottom-0 end-0 p-3" id="CttCJimEasyToast_toasthost"></div>`;
+
+    var pos;
+    //Uncomment thje line below for oyur desired position. Dynamic positioning is not yet supported.
+    //pos="top-0 start-0"; //Top left
+    pos="top-0 start-50 translate-middle-x"; //Top center
+    //pos="top-0 end-0"; //Top right
+    //pos="top-50 start-0 translate-middle-y"; //Middle left
+    //pos="top-50 start-50 translate-middle"; //Middle center
+    //pos="top-50 end-0 translate-middle-y"; //Middle right
+    //pos="bottom-0 start-0"; //Bottom left
+    //pos="bottom-0 start-50 translate-middle-x"; //Bottom center
+    //pos="bottom-0 end-0"; //Bottom right
+
+    var html = `<div class="toast-container position-fixed ${pos} p-3" id="CttCJimEasyToast_toasthost"></div>`;
+    
     $('body').append(html);
 });
 
