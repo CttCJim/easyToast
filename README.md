@@ -36,6 +36,10 @@ An easyToast can be called with one or two string arguments. If only one is prov
 
 ![image](https://github.com/CttCJim/easyToast/assets/31054746/4d34c4de-933e-4545-99f1-7b075393d15e)
 
+# Positioning
+Dynamic positioning is not yet supported. You can change the positioning of the toast popups by uncommenting thje appropriate "pos=" line at the top of easyToast.js as in the image below:
+![image](https://github.com/user-attachments/assets/460abd7d-f378-4a98-a4b4-3760fd7168e4)
+
 # Support and Questions
 Send me a message on Patreon if you'd like support with easyToast.
 
